@@ -2064,5 +2064,27 @@ from random import *
 #
 # tempkel()
 
-
-print('HELLO')
+# n = int(input())
+# counter_last = n % 10
+# count3 = 0             #количество цифр 3 в нем;
+# count_pos = 0          #сколько раз в нем встречается последняя цифра;
+# count_chet = 0         #количество четных цифр;
+# sub5 = 0               #сумму его цифр, больших пяти;
+# proiz_b5 = 1           #произведение цифр, больших семи (если цифр больших семи нет, то вывести 1, если такая цифра 
+# count0_5 = 0           #сколько раз в нем встречается цифры 0 и 5 (всего суммарно).
+# while n != 0:
+#     a = n % 10
+#     if a == 3 :
+#         count3 += 1
+#     if a == counter_last:
+#         count_pos += 1
+#     if a % 2 == 0:
+#         count_chet += 1
+#     if a > 5:
+#         sub5 += a
+#     if a > 7:
+#         proiz_b5 *= a
+#     if a == 0 or a == 5:
+#         count0_5 += 1
+#     n //= 10      
+# print(count3, count_pos, count_chet, sub5, proiz_b5, count0_5, sep = '\n')
